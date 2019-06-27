@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
@@ -31,7 +30,6 @@ public class IndexController {
 
 	@Autowired
 	private UserService userService;
-
 
 	@RequestMapping("/index")
 	public String showUser(Model model) {
@@ -119,15 +117,6 @@ public class IndexController {
 		}
 		return "redirect:index";
 	}
-
-
-
-
-
-
-
-
-
 
 
 	/**

@@ -14,6 +14,7 @@ public class MyException extends RuntimeException {
      */
     private boolean propertiesKey = true;
 
+
     /**
      * 构造一个基本异常.
      *
@@ -100,6 +101,7 @@ public class MyException extends RuntimeException {
     {
         return errorCode;
     }
+
 
     public void setErrorCode(String errorCode)
     {
