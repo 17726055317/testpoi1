@@ -167,7 +167,6 @@ public class IndexController {
 
 		return style;
 	}
-//////////////////////////////////////
 	
 
 }
